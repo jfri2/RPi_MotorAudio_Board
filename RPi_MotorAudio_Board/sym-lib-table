@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RPi_MotorAudio_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/RPi_MotorAudio_Board-rescue.lib)(options "")(descr ""))
+)
