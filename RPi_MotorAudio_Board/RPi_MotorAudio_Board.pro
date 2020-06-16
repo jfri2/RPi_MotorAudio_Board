@@ -1,4 +1,4 @@
-update=6/14/2020 1:31:57 PM
+update=6/15/2020 8:36:06 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,15 +36,23 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.1524
-MinViaDiameter=0.7999999999999999
-MinViaDrill=0.5
+MinTrackWidth=0.127
+MinViaDiameter=0.45
+MinViaDrill=0.2
 MinMicroViaDiameter=0.5
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2
+TrackWidth2=0.127
+TrackWidth3=0.254
+TrackWidth4=0.508
+TrackWidth5=1.127
 ViaDiameter1=0.9
 ViaDrill1=0.6
+ViaDiameter2=0.45
+ViaDrill2=0.2
+ViaDiameter3=0.9
+ViaDrill3=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -57,7 +65,7 @@ SilkTextUpright=1
 CopperLineWidth=0.09999999999999999
 CopperTextSizeV=1
 CopperTextSizeH=1
-CopperTextThickness=0.3
+CopperTextThickness=0.25
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09999999999999999
@@ -68,10 +76,10 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0
+SolderMaskClearance=0.05
 SolderMaskMinWidth=0
-SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteClearance=-0.08
+SolderPasteRatio=-0.0008
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -227,11 +235,11 @@ Enabled=1
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Fab]
 Enabled=0
 [pcbnew/Layer.F.Fab]

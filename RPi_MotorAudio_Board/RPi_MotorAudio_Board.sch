@@ -132,17 +132,6 @@ F 3 "" H 3000 7200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RPi_MotorAudio_Board-rescue:Mounting_Hole-Mechanical MK3
-U 1 1 5834FBEF
-P 3450 7200
-F 0 "MK3" H 3550 7246 50  0000 L CNN
-F 1 "M2.5" H 3550 7155 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5" H 3450 7200 60  0001 C CNN
-F 3 "" H 3450 7200 60  0001 C CNN
-	1    3450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L RPi_MotorAudio_Board-rescue:Mounting_Hole-Mechanical MK2
 U 1 1 5834FC19
 P 3000 7400
